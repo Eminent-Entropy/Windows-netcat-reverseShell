@@ -15,7 +15,7 @@ notes:
 
 	-You won't be able to switch to a diffrent drive and running, so make sure you're on the correct one. (usally the C drive)
 
-	-if you disconnect just run listener.cmd at wait 1 minute at most to reconnect.
+	-if you disconnect just run listener.cmd or "nc -lvp 4444" again and it will take 1 minute at most to reconnect.
 
 	-running powershell command will break it and you will have to disconnect and reconnect.
 
@@ -24,3 +24,6 @@ notes:
 	-this is setup to be done over a local network, using this over the internet is easy
 		if you have a knowlege of port forwarding, but this can be a security risk 
 		so do not do this if you do not know what you're doing.
+		
+	-you can also hide the shell in a program, just get it run rShell.cmd. It's that same as running
+		an exe file. See the language's documentation for details.
