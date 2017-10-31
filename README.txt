@@ -4,7 +4,7 @@ setup:
 	3: edit the rShell.cmd file and replace "ipaddress" with the attcking computer's ip address
 	4: on the attacking computer get netcat to listen on port 4444
 		a) On Windows run listener.cmd
-		b) On Linux install netcat "sudo apt-get install nc" the run "nc -lvp 4444"
+		b) On Linux install netcat "sudo apt-get install nc" then run "nc -lvp 4444"
 
 attack:
 	1: with all the needed files in the same directory on the target computer run rShell.cmd
